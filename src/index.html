@@ -22,7 +22,7 @@
                 <ul class="flex flex-col md:flex-row md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
                     <li><a href="./index.html" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-white hover:bg-blue-600 hover:bg-opacity-80">Home</a></li>
                     <li><a href="./about.html" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-white hover:bg-blue-600 hover:bg-opacity-80">About</a></li>
-                    <li><a href="./blog.html" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-white hover:bg-blue-600 hover:bg-opacity-80">Articles</a></li>
+                    <li><a href="./blog.html" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-white hover:bg-blue-600 hover:bg-opacity-80">Blog</a></li>
                     <li><a href="./contact.html" class="block py-2 pr-4 pl-3 text-white rounded md:bg-transparent md:text-white hover:bg-blue-600 hover:bg-opacity-80">Contact</a></li>
                 </ul>
             </div>
@@ -34,10 +34,27 @@
         <div class="container mx-auto text-center">
             <h1 class="text-5xl md:text-7xl font-extrabold">Welcome to TALPR Network</h1>
             <p class="mt-4 text-2xl md:text-3xl">Talent Acquisition Leaders and Professionals Network</p>
-            <p class="mt-3">A vibrant community by FresherBot team dedicated to enhancing the careers and well-being of HR professionals</p>
-            <a href="#" class="mt-8 inline-block bg-white text-blue-700 py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-200 transition duration-300">Connect now</a>
+            <p class="mt-3">A vibrant community  dedicated to enhancing the careers and well-being of HR professionals</p>
+            <a href="https://wa.me/918977945750" class="mt-8 inline-block bg-white text-blue-700 py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-200 transition duration-300">Connect now</a>
+            <a href="https://www.linkedin.com/showcase/talpr-network" class="mt-8 ml-3 inline-block bg-white text-blue-700 py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-200 transition duration-300">Linkedin</a>
         </div>
     </section>
+
+     <!-- Cards Section -->
+     <section class="py-16 bg-white">
+        <div class="container text-center mx-auto pb-8">
+            <h1 class="text-4xl font-bold text-blue-700">Recent Posts</h1>
+            <p class="text-xl text-gray-600 mt-4">Latest Insights in HR: Articles and Trends Shaping the Future of Work</p>
+        </div>
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+            <x-homepage.blogs.index :data="$data" />
+        </div>
+        <div class="text-center mt-8">
+            <a href="/blog" class="text-blue-700 font-bold text-xl">View All Posts</a>
+        </div>
+    </section>
+
 
     <!-- Cards Section -->
     <section class="py-16 bg-white">
@@ -79,7 +96,8 @@
         <div class="container mx-auto text-center">
             <h2 class="text-4xl font-bold">Ready to Take Your HR Career to the Next Level?</h2>
             <p class="mt-4 text-xl">Join TALPR HR Network today and unlock your potential.</p>
-            <a href="#" class="mt-8 inline-block bg-blue-700 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-600 transition duration-300">Connect Now</a>
+            <a href="https://wa.me/918977945750" class="mt-8 inline-block bg-blue-700 text-white py-3 px-6 rounded-lg text-lg font-semibold hover:bg-blue-600 transition duration-300">Connect Now</a>
+
         </div>
     </section>
 
